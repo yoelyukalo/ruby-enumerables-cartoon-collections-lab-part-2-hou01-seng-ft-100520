@@ -13,7 +13,7 @@ def summon_captain_planet(planeteer_calls)
   i = 0 
   while i < planeteer_calls.length do
     new_arr << planeteer_calls[i].capitalize + "!"
-    count += 1
+    i += 1
   end
   new_arr
 end
