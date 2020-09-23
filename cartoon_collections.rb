@@ -11,7 +11,7 @@ end
 def summon_captain_planet(planeteer_calls)
   new_arr = []
   count = 0 
-  while count < planeteer_calls.length do 
+  while count < planeteer_calls.length do
     word = ""
     planeteer_calls[count] = word
     new_arr << word.capitalize + !
